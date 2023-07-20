@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script  src="logic.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Portfolio von Julian Bachmann</h1>
+    <nav>
+      <div>
+        <a href="#home">Home</a>
+        <a href="#projects">Projekte</a>
+        <a href="#skills">Fähigkeiten</a>
+        <a href="#contact">Kontakt</a>
+      </div>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="home">
+      <div class="project">
+      <p class="text">Vor vier Jahren habe ich meine Lehre als Informatiker angefangen, weil ich lernen wollte, wie ich alles Mögliche nach Herzbegehren programmieren kann.<br><br> 
+        Inzwischen habe ich die Lehre in der Twofold AG erfolgreich abgeschlossen. Ich bin auf Javascript spezialisiert und kenne deshalb TypeScript, Node.js und Three.js<br><br> 
+        Ich hoffe, dass meine Kompetenzen für Ihre Firma nützlich sind und würde mich darauf freuen Sie kennenlernen zu dürfen.</p>
+      <img src="Arbeitsfoto.png" class="introduction" alt="Placeholder image">
+      <img src="Bewerbungsfoto.png" class="introduction" alt="Placeholder image">
+      <img src="Schachfoto.jpg" class="introduction" alt="Placeholder image">
+    </div>
+    </section>
+  
+    <section id="projects">
+      <h2>Projekte</h2>
+      <div class="project">
+        <h3>Pokemon Daten von API nutzen</h3>
+        <p class="text">Nicht jedes Pokemon wird gleich geboren. Es gibt Gründe dafür, warum ein Glurak viel stärker ist als ein Karpador. Das liegt vor allem an den sogenannten 
+          Statuswerten, die ein Pokemon hat. Jedes Pokemon hat Werte für Angriff, Verteidigung und Geschwindigkeit. Je höher diese Werte, desto besser.
+          <br><br> 
+          Wer ein starkes Team haben möchte, schaut deshalb zuerst auf die Pokemon mit den höchsten Statuswerten. Im Internet gibt es meiner Meinung nach nicht genug Funktionen, um diese 
+          zu sortieren. Deshalb habe ich diese Seite als Übung gemacht.
+          <br><br>
+          Meine Webseite erlaubt es, einige Werte auszuschalten. Das ist zum Beispiel nützlich, wenn man das stärkste langsame Pokemon herausfinden möchte. Der tiefere Angriffswert wird
+          automatisch ausgeschalten, da es redundant ist und nicht der Gesamtstärke hilft. 
+          <br><br>
+          Programmiert wurde die Webseite mit HTML, CSS, TypeScript und mithilfe der Pokemon API. 
+          <br><br>
+          Das Git Repository zum Projekt befindet sich unter: 
+          <span class="link" onclick="openLink('https://github.com/JulianTwofold/RelevantPokemonStats')">https://github.com/JulianTwofold/RelevantPokemonStats</span>
+          <br><br>
+          Wie ich das JSON file erstellt habe befindet sich unter:
+          <span class="link" onclick="openLink('https://juliantwofold.github.io/createPokemonJson')">https://juliantwofold.github.io/createPokemonJson</span>
+        </p>
+        <img src="Projekt1.PNG" class="projectImage" alt="Placeholder image">
+        <a href="https://juliantwofold.github.io/RelevantPokemonStats/" target="#">Projekt anschauen</a>
+      </div>
+    </section>
+  
+    <section id="skills">
+      <h2>Fähigkeiten</h2>
+      <div class="skills">
+        <div class="skill">
+          <h3 class="skill-title">HTML</h3>
+          <p>Ich bin auf Webseiten spezialisiert. Mit HTML arbeite ich deshalb immer.</p>
+          <div class="progress-bar">
+            <div class="progress" style="max-width:85%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3 class="skill-title">CSS</h3>
+          <p>Brauche ich für jede HTML Seite. Ich kenne mich deshalb gut aus.</p>
+          <div class="progress-bar">
+            <div class="progress" style="max-width:85%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3 class="skill-title">JavaScript</h3>
+          <p>Meine Lieblingsprache. Am liebsten ohne zusätzliche Libarys und Frameworks. </p>
+          <div class="progress-bar">
+            <div class="progress" style="max-width:85%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3 class="skill-title">Typescript</h3>
+          <p>Mit TypeScript arbeite ich ebenfalls gerne. Ich verwende TypeScript für grössere Projekte.</p>
+          <div class="progress-bar">
+            <div class="progress" style="max-width:80%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3 class="skill-title">Node.js</h3>
+          <p>Im vierten Lehrjahr habe ich vorallem mit Node gearbeitet. Node erlaubt Serverseitiges Javascript.</p>
+          <div class="progress-bar">
+            <div class="progress" style="max-width:70%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3 class="skill-title">MySQL</h3>
+          <p>Ich habe schon oft mit Datenbanken gearbeitet. Meine SQL kenntnise sind also gut.</p>
+          <div class="progress-bar">
+            <div class="progress" style="max-width:75%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3 class="skill-title">PHP</h3>
+          <p>Verwende ich vorallem zusammen mit AJAX. In meinen ersten 3 Lehrjahren habe ich immer wieder damit gearbeitet.</p>
+          <div class="progress-bar">
+            <div class="progress" style="max-width:70%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3 class="skill-title">Three.js</h3>
+          <p>In meiner Firma lernt man diese Libary. Falls Sie 3D im Browser haben wollen kann ich ihnen aushelfen.</p>
+          <div class="progress-bar">
+            <div class="progress" style="max-width:60%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3 class="skill-title">Matter.js</h3>
+          <p>Meine erste Wahl für Physik in einer Webseite. Mit dieser Libary kenne ich mich aber noch nicht so gut aus.</p>
+          <div class="progress-bar">
+            <div class="progress" style="max-width:55%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3 class="skill-title">Bootstrap</h3>
+          <p>Ich arbeite am Liebsten ohne Framework. Bootstrap kann ich trotzdem.<br><br></p>
+          <div class="progress-bar">
+            <div class="progress" style="max-width:65%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3 class="skill-title">API</h3>
+          <p>Ich habe schon einige male Daten von API's geholt und schön abgebildet.<br><br></p>
+          <div class="progress-bar">
+            <div class="progress" style="max-width:75%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3 class="skill-title">Github</h3>
+          <p>Jeder Informatiker braucht ein tool für Datensicherheit und Integrität. Ich vertraue dafür wie viele andere auf Github.</p>
+          <div class="progress-bar">
+            <div class="progress" style="max-width:80%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="contact">
+    <h2>Kontakt</h2>
+    <p>Sie können mich auf <a href="mailto:julian.bachmann@bluewin.ch">julian.bachmann@bluewin.ch</a> erreichen</p>
+  </footer>
+</body>
+</html>
