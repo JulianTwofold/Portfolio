@@ -197,19 +197,13 @@ progress::-webkit-progress-bar {
 
 /* Responsive styles */
 @media (max-width: 600px) {
-  header {
-    text-align: left;
+  .introduction{
+    margin-bottom:10px;
   }
-
-  nav div {
-    display: block;
-    text-align: left;
-    margin: 0;
-    padding: 0;
-  }
-
-  nav a {
-    display: block;
-    margin: 10px 0;
+  .project{
+    width:90vw;
+    padding:3vw;
+    margin-left:3vw;
+    text-align: center;
   }
 }
